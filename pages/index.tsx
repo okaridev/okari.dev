@@ -29,7 +29,7 @@ const Home: NextPage = () => {
           content="A collection of open source tools designed for developers."
         />
       </Head>
-      <h1 className="font-bold text-5xl mb-6 text-center max-w-2xl tracking-tighter text-white">
+      <h1 className=" text-5xl mb-6 text-center max-w-4xl  text-white">
         A collection of{" "}
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
           open source
@@ -44,7 +44,7 @@ const Home: NextPage = () => {
         <button
           className="flex font-black items-center justify-center h-12 px-6
         text-white rounded bg-gradient-to-r from-purple-400 to-pink-600
-          outline-none duration-300 hover:opacity-80"
+          outline-none duration-300 hover:opacity-80 font-sans"
         >
           Explore on GitHub <FiExternalLink className="ml-2 text-xl" />
         </button>
