@@ -1,15 +1,12 @@
-import type { AppProps } from "next/app";
-import { Rosarivo } from "@next/font/google";
-import "../styles/globals.css";
+import { Poppins } from '@next/font/google';
+import type { AppProps } from 'next/app';
+import '../styles/globals.css';
 
-const rosarivo = Rosarivo({
-  subsets: ["latin"],
-  weight: "400",
-});
+const poppins = Poppins({ weight: '500', subsets: ['latin'] });
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <main className={rosarivo.className}>
+    <main className={poppins.className}>
       <Component {...pageProps} />
     </main>
   );
